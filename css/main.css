@@ -1,0 +1,85 @@
+@font-face
+{
+  font-family: ProximaThin;
+  src: url(../fonts/proximanova/ProximaNovaThin.otf) format("truetype");
+}
+
+
+body
+{
+	margin: 0px;
+	padding: 5%;
+	background-color: white;
+}
+
+#logo
+{
+    text-align: center;
+    font-family: ProximaThin;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+#nav
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+    font-family: ProximaThin;
+    font-size: 30px;
+    margin-bottom: 10%;
+}
+
+#content
+{
+    font-family: ProximaThin;
+    font-size: 50px;
+    color: #424242;
+}
+
+
+
+
+#logo a:link
+{
+    text-decoration: none;
+    color: black;
+}
+
+#logo a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+
+#logo a:hover
+{
+    text-decoration: none;
+    color: black;
+}
+
+#nav a:link
+{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+#nav a:visited
+{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+#nav a:hover
+{
+    text-decoration: none;
+    color: rgba(39, 39, 39, 0.4);   /* #00f3f3 */
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+}
