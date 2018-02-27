@@ -32,14 +32,41 @@ body
     padding: 0px;
     font-family: ProximaThin;
     font-size: 30px;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
 
 #content
 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.profile
+{
+    width: 210px;
+    height: 360px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.profile img
+{
+    height: 100%;
+    position: absolute;
+}
+
+.text
+{
     font-family: ProximaThin;
-    font-size: 50px;
-    color: #4C4C4C;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    text-align: center;
+    padding: 5%;
 }
 
 #people
@@ -86,4 +113,15 @@ body
     -webkit-transition: color 0.2s linear;
     -moz-transition: color 0.2s linear;
     -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+.profile:hover .text
+{
+    color: rgba(255, 255, 255, 1);
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.24s linear;
+    -moz-transition: all 0.24s linear;
+    -o-transition: all 0.24s linear;
+    transition: all 0.24s linear;
 }

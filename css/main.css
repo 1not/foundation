@@ -96,4 +96,5 @@ body
     -webkit-transition: color 0.2s linear;
     -moz-transition: color 0.2s linear;
     -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
 }
