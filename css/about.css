@@ -49,6 +49,21 @@ body
 }
 
 
+#chapter
+{
+    font-size: 34px;
+    margin-bottom: 5%;
+}
+
+body::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(50, 50, 50);
+}
+
+
 #logo a:link
 {
     text-decoration: none;
