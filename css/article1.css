@@ -4,7 +4,6 @@
   src: url(../fonts/ProximaNovaThin.otf) format("truetype");
 }
 
-
 body
 {
 	margin: 0px;
@@ -49,12 +48,32 @@ section
     margin-bottom: 11%;
 }
 
-
 #chapter
 {
     font-size: 34px;
     margin-bottom: 5%;
 }
+
+
+#button_top img
+{
+    width: 46px;
+    height: 46px;
+    position: fixed;
+    right: 10px;
+    bottom: 8px;
+    cursor: pointer;
+}
+
+#button_top img:hover
+{
+    opacity: 0.6;
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
 
 body::-webkit-scrollbar {
     width: 2px;
