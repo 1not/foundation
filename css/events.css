@@ -17,7 +17,7 @@ body
     text-align: center;
     font-family: ProximaThin;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 46px;
     margin-bottom: 2%;
     letter-spacing: 2px;
 }
@@ -28,10 +28,10 @@ body
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0px;
     padding: 0px;
     font-family: ProximaThin;
-    font-size: 25px;
+    font-size: 20px;
+    margin: 0% 22%;
     margin-bottom: 6%;
 }
 
