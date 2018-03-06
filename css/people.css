@@ -17,7 +17,7 @@ body
     text-align: center;
     font-family: ProximaThin;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 2%;
     letter-spacing: 2px;
 }
@@ -31,8 +31,8 @@ body
     margin: 0px;
     padding: 0px;
     font-family: ProximaThin;
-    font-size: 30px;
-    margin-bottom: 7%;
+    font-size: 25px;
+    margin-bottom: 6%;
 }
 
 #content
@@ -45,7 +45,7 @@ body
 .profile
 {
     width: 210px;
-    height: 360px;
+    height: 300px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ body
 .text
 {
     font-family: ProximaThin;
-    font-size: 34px;
+    font-size: 22px;
     color: rgba(255, 255, 255, 0);
     position: absolute;
     text-align: center;

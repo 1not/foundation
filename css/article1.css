@@ -16,7 +16,7 @@ body
     text-align: center;
     font-family: ProximaThin;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 2%;
     letter-spacing: 2px;
 }
@@ -30,28 +30,28 @@ body
     margin: 0px;
     padding: 0px;
     font-family: ProximaThin;
-    font-size: 30px;
-    margin-bottom: 10%;
+    font-size: 25px;
+    margin-bottom: 8%;
 }
 
 section
 {
     font-family: ProximaThin;
-    font-size: 28px;
+    font-size: 24px;
     color: #B3B3B3;
 }
 
 #caption
 {
-    font-size: 42px;
+    font-size: 32px;
     text-align: center;
-    margin-bottom: 11%;
+    margin-bottom: 8%;
 }
 
 #chapter
 {
-    font-size: 34px;
-    margin-bottom: 5%;
+    font-size: 27px;
+    margin-bottom: 3%;
 }
 
 

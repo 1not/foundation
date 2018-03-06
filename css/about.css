@@ -17,7 +17,7 @@ body
     text-align: center;
     font-family: ProximaThin;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 2%;
     letter-spacing: 2px;
 }
@@ -31,14 +31,14 @@ body
     margin: 0px;
     padding: 0px;
     font-family: ProximaThin;
-    font-size: 30px;
-    margin-bottom: 6%;
+    font-size: 25px;
+    margin-bottom: 10%;
 }
 
 #content
 {
     font-family: ProximaThin;
-    font-size: 50px;
+    font-size: 27px;
     color: #4C4C4C;
     text-align: center;
 }
@@ -46,13 +46,6 @@ body
 #about
 {
     color: rgba(39, 39, 39, 0.4);
-}
-
-
-#chapter
-{
-    font-size: 34px;
-    margin-bottom: 5%;
 }
 
 body::-webkit-scrollbar {

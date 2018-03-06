@@ -17,7 +17,7 @@ body
     text-align: center;
     font-family: ProximaThin;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 2%;
     letter-spacing: 2px;
 }
@@ -31,14 +31,14 @@ body
     margin: 0px;
     padding: 0px;
     font-family: ProximaThin;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 7%;
 }
 
 #content
 {
     font-family: ProximaThin;
-    font-size: 50px;
+    font-size: 27px;
     color: #4C4C4C;
     text-align: center;
 }
@@ -50,7 +50,7 @@ body
 
 #mail
 {
-    font-size: 56px;
+    font-size: 32px;
 }
 
 form
@@ -60,20 +60,20 @@ form
 
 input[type=text]
 {
-    margin-top: 3%;
+    margin-top: 2%;
     font-family: ProximaThin;   
-    font-size: 30px;
-    width: 460px;
+    font-size: 22px;
+    width: 400px;
     border: none;
     padding-left: 10px;
     padding-right: 10px;
-    border-bottom: solid 3px rgba(70, 70, 70, 0.8);
+    border-bottom: solid 3px #464646;
     outline: none;
 }
 
 input[type=text]:focus
 {
-    border-bottom: solid 3px #464646;
+    border-bottom: solid 3px #282828;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
@@ -82,40 +82,40 @@ input[type=text]:focus
 
 ::-webkit-input-placeholder
 {
-    color: #AAAAAA;
+    color: #969696;
 }
 
 ::-moz-placeholder
 {
-    color: #AAAAAA;
+    color: #969696;
 }
 
 :-moz-placeholder
 {
-    color: #AAAAAA;
+    color: #969696;
 }
 
 :-ms-input-placeholder
 {
-    color: #AAAAAA;
+    color: #969696;
 }
 
 input[type=submit]
 {
+    margin-top: 1.2%;
     font-family: ProximaThin;
     text-decoration: none;
     cursor: pointer;
     border: none;
     background-color: #464646;
-    opacity: 0.85;
     color: white;
-    font-size: 28px;
-    width: 480px; 
+    font-size: 20px;
+    width: 420px; 
 }
 
 input[type=submit]:hover
 {
-    opacity: 1;
+    background-color: #282828;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
