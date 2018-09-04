@@ -1,98 +1,109 @@
-@font-face
-{
-  font-family: ProximaThin;
-  src: url(../fonts/ProximaNovaThin.otf) format("truetype");
-}
-
-
-body
-{
-	margin: 0px;
-	padding: 5%;
-	background-color: white;
-}
-
-#logo
-{
-    text-align: center;
-    font-family: ProximaThin;
-    font-weight: bold;
-    font-size: 46px;
-    margin-bottom: 2%;
-    letter-spacing: 2px;
-}
-
-#nav
-{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px;
-    font-family: ProximaThin;
-    font-size: 20px;
-    margin: 0% 22%;
-    margin-bottom: 8%;
-}
-
 #content
 {
     font-family: ProximaThin;
     font-size: 27px;
-    color: #4C4C4C;
-    text-align: center;
+    color: #444444;
+    line-height: 1.35em;
+    letter-spacing: .05em;
+    margin: 0 auto;
+    max-width: 700px;
 }
 
 #about
 {
-    color: rgba(39, 39, 39, 0.4);
+    color: lightgrey;
 }
 
-body::-webkit-scrollbar {
-    width: 2px;
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(50, 50, 50);
-}
-
-
-#logo a:link
+#signup
 {
-    text-decoration: none;
-    color: black;
+    margin-top: 20%;
+    letter-spacing: .05em;
+    text-align: center;
 }
 
-#logo a:visited
+input[type=text]
 {
-    text-decoration: none;
-    color: black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5%;
+    font-family: ProximaThin;   
+    font-size: 22px;
+    width: 500px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #ffffff;
+    border: solid 1px #515151;
+    outline: none;
+    letter-spacing: .05em;
 }
 
-#logo a:hover
+input[name=enmail]
 {
-    text-decoration: none;
-    color: black;
+    text-align: left;
 }
 
-#nav a:link
+input[type=text]:focus
 {
-    text-decoration: none;
-    color: rgb(39, 39, 39);
+    background: #ffffff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
-#nav a:visited
+input[type=text]:focus::-webkit-input-placeholder
 {
-    text-decoration: none;
-    color: rgb(39, 39, 39);
+    color: white;
 }
 
-#nav a:hover
+::-webkit-input-placeholder
 {
+    color: #515151;
+}
+
+::-moz-placeholder
+{
+    color: #515151;
+}
+
+:-moz-placeholder
+{
+    color: #515151;
+}
+
+:-ms-input-placeholder
+{
+    color: #515151;
+}
+
+input[type=submit]
+{
+    display: block;
+    margin: 0 auto;
+    font-family: ProximaThin;
     text-decoration: none;
-    color: rgba(39, 39, 39, 0.4);
-    -webkit-transition: color 0.2s linear;
-    -moz-transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
-    transition: color 0.2s linear;
+    cursor: pointer;
+    border: none;
+    background-color: #515151;
+    color: white;
+    font-size: 20px;
+    width: 522px; 
+    padding-top: 2px;
+    padding-bottom: 0px;
+    height: 32px;
+    letter-spacing: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover
+{
+    background-color: #282828;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }

@@ -3,7 +3,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction()
 {
-    if (document.body.scrollTop > 260 || document.documentElement.scrollTop > 260)
+    if (document.body.scrollTop > 1060 || document.documentElement.scrollTop > 1060)
     {
         document.getElementById("button_top").style.display = "block";
     }

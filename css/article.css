@@ -1,0 +1,77 @@
+section
+{
+    font-family: ProximaThin;
+    font-size: 24px;
+    color: #444444;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    max-width: 700px;    
+}
+
+#chapter
+{
+    font-size: 27px;
+    margin-bottom: 3%;
+}
+
+
+#button_top img
+{
+    width: 46px;
+    height: 46px;
+    position: fixed;
+    right: 10px;
+    bottom: 8px;
+    cursor: pointer;
+}
+
+/* TEXT EDITING */
+
+h1
+{
+    font-size: 38px;
+    margin-bottom: 6%;
+}
+
+.smallcaption
+{
+    
+}
+
+.quote
+{
+    font-style: italic;
+    margin: 5%;
+}
+
+#bold
+{
+    font-weight: bold;
+}
+
+img
+{
+    max-width: 700px;
+}
+
+.link
+{
+    
+}
+
+div
+{
+    margin-bottom: 3%;
+}
+
+.list_num
+{
+    
+}
+
+.list_dot
+{
+    
+}
+
+/* OTHER THINGS ARE DONE BY HTML */

@@ -1,45 +1,9 @@
-@font-face
-{
-  font-family: ProximaThin;
-  src: url(../fonts/ProximaNovaThin.otf) format("truetype");
-}
-
-
-body
-{
-	margin: 0px;
-	padding: 5%;
-	background-color: white;
-}
-
-#logo
-{
-    text-align: center;
-    font-family: ProximaThin;
-    font-weight: bold;
-    font-size: 46px;
-    margin-bottom: 2%;
-    letter-spacing: 2px;
-}
-
-#nav
-{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px;
-    font-family: ProximaThin;
-    font-size: 20px;
-    margin: 0% 22%;
-    margin-bottom: 6%;
-}
-
 #content
 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .profile
@@ -70,57 +34,18 @@ body
 
 #people
 {
-    color: rgba(39, 39, 39, 0.4);
+    color: lightgrey;
 }
 
+/* LINKS - TRANSITIONS - DECORATIONS */
 
-body::-webkit-scrollbar {
-    width: 2px;
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(50, 50, 50);
-}
-
-
-#logo a:link
+.profile .text
 {
-    text-decoration: none;
-    color: black;
-}
-
-#logo a:visited
-{
-    text-decoration: none;
-    color: black;
-}
-
-#logo a:hover
-{
-    text-decoration: none;
-    color: black;
-}
-
-#nav a:link
-{
-    text-decoration: none;
-    color: rgb(39, 39, 39);
-}
-
-#nav a:visited
-{
-    text-decoration: none;
-    color: rgb(39, 39, 39);
-}
-
-#nav a:hover
-{
-    text-decoration: none;
-    color: rgba(39, 39, 39, 0.4);
-    -webkit-transition: color 0.2s linear;
-    -moz-transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
-    transition: color 0.2s linear;
+    color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.24s linear;
+    -moz-transition: all 0.24s linear;
+    -o-transition: all 0.24s linear;
+    transition: all 0.24s linear;
 }
 
 .profile:hover .text
@@ -131,6 +56,17 @@ body::-webkit-scrollbar-thumb {
     -o-transition: all 0.24s linear;
     transition: all 0.24s linear;
 }
+
+.profile img
+{
+    -webkit-filter: brightness(100%);
+    filter: brightness(100%);
+    -webkit-transition: all 0.24s linear;
+    -moz-transition: all 0.24s linear;
+    -o-transition: all 0.24s linear;
+    transition: all 0.24s linear;
+}
+
 
 .profile:hover img
 {

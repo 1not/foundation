@@ -9,8 +9,9 @@
     <meta name="description" content="Foundation" />
     <meta name="keywords" content="foundation, third-foundation, third foundation" />
     <meta name="author" content="Foundation" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    
+    <link rel="stylesheet" type="text/css" href="../css/globally.css" />
     <link rel="stylesheet" type="text/css" href="../css/contact.css" />
 
 </head>
@@ -27,26 +28,25 @@
 
     <nav>
 	<ul id="nav">
-                <li><a href="events.html" title="Events">EVENTS</a></li>
                 <li><a href="blog.html" title="Blog">BLOG</a></li>
+                <li><a href="about.html" title="About">ABOUT</a></li>      
                 <li><a href="people.html" title="People">PEOPLE</a></li>
-                <li><a href="about.html" title="About">ABOUT</a></li>
                 <li><a href="contact.html" title="Contact"><span id="contact">CONTACT</span></a></li>
          </ul>
     </nav>
 
 
     <section>
+        
         <div id="content">
-            <span id="mail">contact@third-foundation.com</span>
             
-            <form action="mailto:contact@third-foundation.com" method="post" enctype="text/plain">
-                Sign up for email updates.<br />
-                <input type="text" name="mail" placeholder="Enter Your Email"/>
-                <div>
-                <input type="submit" value="SIGN UP"/>
-                </div>
+            <form action="../php/send.php" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Name" />
+                <input type="text" name="email" placeholder="Email" />
+                <textarea id="message" placeholder="Message"></textarea>
+                <input type="submit" value="SEND"/>
             </form>
+                       
         </div>
     </section>
 

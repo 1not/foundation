@@ -1,116 +1,114 @@
-@font-face
-{
-  font-family: ProximaThin;
-  src: url(../fonts/ProximaNovaThin.otf) format("truetype");
-}
-
-
-body
-{
-	margin: 0px;
-	padding: 5%;
-	background-color: white;
-}
-
-#logo
-{
-    text-align: center;
-    font-family: ProximaThin;
-    font-weight: bold;
-    font-size: 46px;
-    margin-bottom: 2%;
-    letter-spacing: 2px;
-}
-
-#nav
-{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0px;
-    font-family: ProximaThin;
-    font-size: 20px;
-    margin: 0% 22%;
-    margin-bottom: 6%;
-}
-
 #content
-{
+{    
     font-family: ProximaThin;
     font-size: 27px;
-    color: #4C4C4C;
-    text-align: center;
+    color: #444444;
+    line-height: 1.35em;
+    letter-spacing: .05em;
+    max-width: 700px;   
+    margin: 0 auto;
 }
 
 #contact
 {
-    color: rgba(39, 39, 39, 0.4);
-}
-
-#mail
-{
-    font-size: 32px;
-}
-
-form
-{
-    margin-top: 5.2%;
+    color: lightgrey;
 }
 
 input[type=text]
 {
-    margin-top: 1.5%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5%;
     font-family: ProximaThin;   
     font-size: 22px;
-    width: 400px;
-    border: none;
+    width: 500px;
+    height: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    border-bottom: solid 3px #464646;
+    background: #ffffff;
+    border: solid 1px #515151;
     outline: none;
+    letter-spacing: .05em;
 }
 
 input[type=text]:focus
 {
-    border-bottom: solid 3px #282828;
+    background: #ffffff;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
 
+#message
+{ 
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5%;
+    font-family: ProximaThin;   
+    font-size: 22px;
+    width: 500px;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    background: #ffffff;
+    border: solid 1px #515151;
+    outline: none;
+    letter-spacing: .05em;
+    resize: none;
+}
+
+input[type=text]:focus::-webkit-input-placeholder
+{
+    color: white;
+}
+
+#message:focus::-webkit-input-placeholder
+{
+    color: white;
+}
+
 ::-webkit-input-placeholder
 {
-    color: #969696;
+    color: #515151;
 }
 
 ::-moz-placeholder
 {
-    color: #969696;
+    color: #515151;
 }
 
 :-moz-placeholder
 {
-    color: #969696;
+    color: #515151;
 }
 
 :-ms-input-placeholder
 {
-    color: #969696;
+    color: #515151;
 }
 
 input[type=submit]
 {
-    margin-top: 1.2%;
+    display: block;
+    margin: 0 auto;
     font-family: ProximaThin;
     text-decoration: none;
     cursor: pointer;
     border: none;
-    background-color: #464646;
+    background-color: #515151;
     color: white;
     font-size: 20px;
-    width: 420px; 
+    width: 522px; 
+    padding-top: 2px;
+    padding-bottom: 0px;
+    height: 32px;
+    letter-spacing: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 input[type=submit]:hover
@@ -120,54 +118,4 @@ input[type=submit]:hover
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
-}
-
-
-body::-webkit-scrollbar {
-    width: 2px;
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(50, 50, 50);
-}
-
-
-#logo a:link
-{
-    text-decoration: none;
-    color: black;
-}
-
-#logo a:visited
-{
-    text-decoration: none;
-    color: black;
-}
-
-#logo a:hover
-{
-    text-decoration: none;
-    color: black;
-}
-
-#nav a:link
-{
-    text-decoration: none;
-    color: rgb(39, 39, 39);
-}
-
-#nav a:visited
-{
-    text-decoration: none;
-    color: rgb(39, 39, 39);
-}
-
-#nav a:hover
-{
-    text-decoration: none;
-    color: rgba(39, 39, 39, 0.4);
-    -webkit-transition: color 0.2s linear;
-    -moz-transition: color 0.2s linear;
-    -o-transition: color 0.2s linear;
-    transition: color 0.2s linear;
 }

@@ -1,0 +1,128 @@
+@font-face
+{
+  font-family: ProximaThin;
+  src: url(../fonts/ProximaNovaThin.otf) format("truetype");
+}
+
+
+body
+{
+	margin: 0px;
+	padding: 5%;
+	background-color: white;
+}
+
+#logo
+{
+    text-align: center;
+    font-family: ProximaThin;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 2%;
+    letter-spacing: 2px;
+}
+
+#nav
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px;
+    font-family: ProximaThin;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: .05em;
+    
+    
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 8%;
+    max-width: 950px;
+}
+
+/* SCROLLBAR */
+
+body::-webkit-scrollbar
+{
+    width: 4px;
+}
+ 
+body::-webkit-scrollbar-thumb
+{
+  background-color: #545454;
+}
+
+::-moz-selection
+{
+    color: white;
+    background: #545454;
+}
+
+::selection 
+{
+    color: white;
+    background: #545454;
+}
+
+textarea::-webkit-scrollbar
+{
+     width: 4px;
+}
+
+textarea::-webkit-scrollbar-thumb
+{
+  background-color: #545454;
+}
+
+/* LINKS - TRANSITIONS - DECORATIONS */
+
+#logo a:link
+{
+    text-decoration: none;
+    color: #545454;
+}
+
+#logo a:visited
+{
+    text-decoration: none;
+    color: #545454;
+}
+
+#logo a:hover
+{
+    text-decoration: none;
+    color: #545454;
+}
+
+#nav a:link
+{
+    text-decoration: none;
+    color: #545454;
+}
+
+#nav a:visited
+{
+    text-decoration: none;
+    color: #545454;
+}
+
+#nav a
+{
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
+
+#nav a:hover
+{
+    text-decoration: none;
+    color: lightgrey;
+    -webkit-transition: color 0.2s linear;
+    -moz-transition: color 0.2s linear;
+    -o-transition: color 0.2s linear;
+    transition: color 0.2s linear;
+}
